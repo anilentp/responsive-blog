@@ -1,11 +1,61 @@
-/* Inserta tu codigo aqui */
+header{
+	font-family: "Open Sans"; 
+	font-style: italic; 
+}
+a:link{
+	text-decoration: none;
+	text-align: center;
+	color: #B0B2B5;
+}
+a:hover{
+	color: #DCA77E;
+}
+li{
+	display: inline;
+	margin: 5%;
+}
+.logo{
+	max-width: 100%;
+	margin: 1%;
+}
+.imglogo{
+	margin: 5% 0;
+	z-index: 1;
+}
+.spring{
+	font-family: "Courgette";
+	font-size: 60px;
+}
+.photoflower{
+	max-width: 300px;
+	max-height: 200px;
+	width: 100%;
+}
+.photo{
+	margin: 1%;
+	display: inline;
+}
+.input{
 
-/* Responsive */
+	
+}
 
+/* Responsive
 @media screen and (max-width : 920px) {
-
+	[class*="col-"] {
+		width: 100%;
+	}
+	[class*="offset-"] {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
-
+	[class*="col-"] {
+		width: 100%;
+	}
+	[class*="offset-"] {
+		width: 100%;
+	}
 }
+ */

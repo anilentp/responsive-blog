@@ -16,6 +16,7 @@
 	src: url(../fonts/Open/OpenSans-Bold.ttf);
 }
 
+
 /* Shortcuts */
 
 .pd-0 {
@@ -66,6 +67,9 @@
 .text-bold{
 	font-weight: bold;
 }
+.text.italic{
+	font-style: italic;
+}
 .text-center{
 	text-align: center;
 }
@@ -78,27 +82,16 @@
 .text-white{
 	color: white;
 }
-.text-gray{
-	color: rgb(83, 88, 95);
-}
-.text-green{
-	color: #3ABB5E;
+.text-orange{
+	color: #DCA77E;
 }
 .a-none-decoration{
 	text-decoration: none;
 }
-.bg-gray{
-	background-color: #808080;
+.bg-black{
+	background-color: #020102;
 }
-.text-gray{
-	color:#F2F2F2;
+.bg-dark{
+	background-color: #1C1821;
 }
-.text-black{
-	color: #4D4D4D;
-}
-.text-green{
-	color: #5E8039;
-}
-.text-white{
-	color:#fff;
-}
+

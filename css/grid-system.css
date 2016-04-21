@@ -1,4 +1,4 @@
- /* GLOBAL */ 
+ /* GLOBAL */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -167,7 +167,20 @@
 	/* (12 / 12) x 100 */
 	margin-left: 100%;
 }
+/*
+@media screen and (max-width : 920px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+}
 
+@media screen and (max-width: 600px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+}
+
+/*
 @media (max-width: 824px) {
 	[class*="col-"] {
 		width: 100%;
@@ -189,3 +202,4 @@
     width: 1170px;
   }
 }
+*/
