@@ -11,7 +11,7 @@ header{
 a:link{
 	text-decoration: none;
 	text-align: center;
-	color: #B0B2B5;
+	color: white;
 }
 a:hover{
 	color: #DCA77E;
@@ -24,16 +24,13 @@ li{
 	max-width: 100%;
 	margin: 1%;
 }
-.imglogo{
-	margin: 5% 0;
-	z-index: 1;
-}
 .spring{
 	font-family: "Courgette";
 	font-size: 60px;
 }
 .text-spring{
-	margin: 0 auto;
+	padding: 5%;
+	margin:10% 30%;
 }
 .photoflower{
 	max-width: 300px;
@@ -45,18 +42,58 @@ li{
 	display: inline;
 }
 input{
+	margin: 5%;
 	padding: 1%;
 	border-radius: 10px;
-	background-color: #1C1821;
+	background-color: #343444;
 }
-
-/* Responsive
+.input{
+	margin: 0 auto;
+}
+.title{
+	font-family: "Courgette";
+	color: #DCA77E;
+}
+.textflower{
+	font-family: "Open Sans";
+	font-style: italic;
+}
+.textlife{
+	margin: 5%;
+}
+.fa-bars {
+	display: none;
+}
+.icono{
+	border-radius: 100%;
+	font-size: 15px;
+	display: inline;
+	color: white;
+	padding: 5%;
+}
+/*
 @media screen and (max-width : 920px) {
 	[class*="col-"] {
 		width: 100%;
 	}
 	[class*="offset-"] {
 		width: 100%;
+	}
+	.menu{
+		display: none;
+		overflow: hidden;
+	}
+	.fa-bars{
+		display:inline;
+		float: right;
+		color:white;
+		font-size:30px;
+		overflow: auto;
+	}
+	.fa-bars:hover{
+		display:block;
+		float: right;
+		overflow: visible;
 	}
 }
 
@@ -67,5 +104,22 @@ input{
 	[class*="offset-"] {
 		width: 100%;
 	}
+	.menu{
+		display: none;
+		overflow: hidden;
+	}
+	.fa-bars{
+	display:inline;
+	float: right;
+	color:white;
+	font-size:30px;
+	overflow: auto;
+	}
+	.fa-bars:hover{
+	display:block;
+	float: right;
+	overflow: visible;
+	}
 }
- */
+}
+ 

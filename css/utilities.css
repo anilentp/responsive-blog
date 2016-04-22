@@ -73,6 +73,9 @@
 .text.italic{
 	font-style: italic;
 }
+.text-just{
+	text-align: justify;
+}
 .text-center{
 	text-align: center;
 }
@@ -92,9 +95,9 @@
 	text-decoration: none;
 }
 .bg-black{
-	background-color: #020102;
+	background-color: #1C1821;
 }
 .bg-dark{
-	background-color: #1C1821;
+	background-color: #343444;
 }
 
